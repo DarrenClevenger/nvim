@@ -1,4 +1,5 @@
 call plug#begin('~/AppData/Local/nvim/plugged')
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'arcticicestudio/nord-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -16,7 +17,10 @@ Plug 'mhinz/vim-startify'
 Plug 'justinmk/vim-sneak'
 call plug#end()
 
-source $HOME/AppData/Local/nvim/themes/nord.vim
+"colorscheme nord
+colorscheme PaperColor
+
+source $HOME/AppData/Local/nvim/themes/theme.vim
 source $HOME/AppData/Local/nvim/settings/settings.vim
 source $HOME/AppData/Local/nvim/plugconfig/coc.vim
 source $HOME/AppData/Local/nvim/settings/keys.vim
