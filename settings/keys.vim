@@ -1,3 +1,5 @@
+
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -10,9 +12,6 @@ nnoremap <M-l>    :vertical resize +2<CR>
 
 " I hate escape more than anything else
 inoremap jj <Esc>
-
-" I Remove high lights after search.
-nnoremap <silent> <esc> :noh<cr><esc>
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
@@ -49,7 +48,7 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nmap <F6> :NERDTreeToggle<CR>
 
 nnoremap <C-p> :Files<CR>
-nnoremap <C-g> :GFiles<CR>
+nnoremap <C-l> :Lines<CR>
 nnoremap ; :GFiles<CR>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-f> :Rg <CR>
